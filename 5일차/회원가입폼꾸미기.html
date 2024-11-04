@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="Campatible" content="IE-edge" />
+    <link href="회원가입폼꾸미기.css" rel="stylesheet" />
+    <title>OZ코딩스쿨</title>
+  </head>
+  <body>
+    <div class="sign-top">
+      <h1>회원가입</h1>
+      <h3>OZ코딩스쿨에 오신 것을 환영합니다!🥳</h3>
+      <div class="sign">
+        <div class="sign" name="개인정보">
+          <input type="text" placeholder="이름" />
+          <input type="text" placeholder="전화번호" />
+          <input type="text" placeholder="이메일" />
+          <input type="password" id="password" placeholder="비밀번호" />
+          <input type="date" placeholder="연도.월.일" />
+        </div>
+        <div class="sign-성별">
+          <input type="radio" name="성별" /><label for="male">남자</label>
+          <input type="radio" name="성별" /><label for="female">여자</label>
+          <input type="radio" name="성별" /><label for="secret">뉴노멀</label>
+        </div>
+        <hr />
+        <div class="동의서">
+          <span>아래 약관에 동의를 눌러주세요.</span>
+          <input type="checkbox" id="all-agree" />
+          <label for="all-agree">전체 동의</label>
+          <dl>
+            <div>
+              <dt>
+                <input type="checkbox" id="rule1" />
+                <label for="rule1">[필수]</label> 남과 나를 비교하지 않기
+              </dt>
+              <dd>
+                남과 나를 비교하지 않고 어제의 나와 오늘의 나를 비교하여 얼마나
+                성장했는지 생각해봐요.
+              </dd>
+            </div>
+            <div>
+              <dt>
+                <input type="checkbox" id="rule2" />
+                <label for="rule2">[필수]</label> 나를 잘 챙겨주기
+              </dt>
+              <dd>
+                몸도 마음도 건강 잘 챙겨줘서 지치지 않고, 포기하지 않고 꾸준히
+                성장할 수 있도록 노력해봐요.
+              </dd>
+            </div>
+            <div>
+              <dt>
+                <input type="checkbox" id="rule3" />
+                <label for="rule3">[필수]</label> 동료 만들기
+              </dt>
+              <dd>
+                함께 공부하는 모든 동기들은 힘들고 지칠 때 서로 위로가 되고 힘이
+                되어주는 큰 기쁨이예요. 함께하는 동료를 만들어 마지막
+                프로젝트까지 함께 성장해봐요.
+              </dd>
+            </div>
+            <div>
+              <dt>
+                <input type="checkbox" id="rule4" />
+                <label for="rule4">[필수]</label> 모를 땐 무조건 물어보살!
+              </dt>
+              <dd>
+                웹의 세계는 계속 넓어지고 있으니 모르는 것이 있다면 웹브라우저에
+                찾아보거나, 질문방, 질의응답 디스코드방에 올려서 꼭 해결해봐요.
+              </dd>
+            </div>
+          </dl>
+        </div>
+        <div class="sign-ok">
+          <button type="submit">회원가입하기</button>
+          <a href="http://ozcodingschool.com"> OZ코딩스쿨 출첵하기</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

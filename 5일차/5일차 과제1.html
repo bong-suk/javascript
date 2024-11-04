@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>회원가입 폼 만들기</title>
+    <link rel="stylesheet" href="5일차 과제1.css" />
+  </head>
+  <body>
+    <div class="main">
+      <header class="title">
+        <h1>회원가입</h1>
+        <h3>
+          oz코딩스쿨에 오신 것을 환영합니다!<img
+            src="cat.png"
+            alt="고양이"
+            width="20"
+          />
+        </h3>
+      </header>
+      <form class="main2">
+        <div class="내용">
+          <input type="text" placeholder="이름" /><br />
+          <input type="number" placeholder="전화번호" /><br />
+          <input type="email" placeholder="이메일" /><br />
+          <input type="password" id="password" placeholder="비밀번호" /><br />
+          <input type="date" />
+        </div>
+        <div class="gender">
+          <input type="radio" name="gender" id="male" /><label for="male"
+            >남자</label
+          >
+          <input type="radio" name="gender" id="female" /><label for="female"
+            >여자</label
+          >
+          <input type="radio" name="gender" id="secret" /><label for="secret"
+            >비밀</label
+          >
+        </div>
+        <div class="약관">
+          <h2>아래 약관에 동의를 눌러주세요</h2>
+          <input type="checkbox" name="number1" id="number1" />
+          <label for="number1"
+            >[필수] 남과 비교하지 않기 : 남과 나를 비교하지 않고 어제의 나와
+            오늘의 나를 비교하여 얼마나 성장했는지 가늠해요.</label
+          ><br /><br />
+          <input type="checkbox" name="number2" id="number2" />
+          <label for="number2"
+            >[필수] 시간을 투자하기 : 시간을 투자하고 노력할수록 완성도 있고
+            성취감 있는 결과를 만들어낼 수 있어요.</label
+          ><br /><br />
+          <input type="checkbox" name="number3" id="number3" />
+          <label for="number3"
+            >[필수] 함께할 동료를 만들기 : 서로서로 가르쳐주고 배우기도 하며
+            함께할 동료를 만들어보세요. 함께 성장할수록 마지막 프로젝트의 완성도
+            또한 높아진답니다.</label
+          ><br /><br />
+          <input type="checkbox" name="number4" id="number4" />
+          <label for="number4"
+            >[필수] 자원을 적극 활용하기 : 조교님과 매니저님을 괴롭히기.</label
+          ><br />
+        </div>
+        <div class="link">
+          <br />
+          <button type="submit">회원가입</button><br /><br />
+          <a href="https://ozcodingschool.com/"
+            >오즈코딩스쿨 홈페이지 구경하기></a
+          >
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

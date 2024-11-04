@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="container"></div>
+    <script>
+      createParagraph();
+      createParagraph();
+      createParagraph();
+      createParagraph();
+
+      function createParagraph() {
+        const p = document.createElement("p");
+        p.textContent = "새롭게 만들어진 문단 태그!";
+        document.querySelector("#container").append(p);
+      }
+      //함수 이름짓기 규칙은 변수와 같다.
+      //기능을 정의하는 만큼, 동사를 사용하는 것이 좋다!
+      function sayYes() {
+        console.log(1);
+        console.log(2);
+        alert("Yes!");
+      }
+
+      sayYes();
+
+      const sayNo = function () {
+        alert("no!");
+        console.log(3);
+      };
+
+      sayNO();
+    </script>
+  </body>
+</html>

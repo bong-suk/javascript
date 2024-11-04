@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <title>입력 태그</title>
+        <style>
+            h1 {text-align: center; color: brown;}
+            .container {
+              max-width: 500px; 
+              margin: 0 auto; 
+              padding: 20px; 
+              box-sizing: border-box;
+              border: 1px solid #ccc; }
+            label {display: block; margin-bottom: 5px;}
+            input[type="text"], 
+            input[type="password"] { 
+              width: 100%;
+              padding: 8px;
+              box-sizing: border-box;
+              border: 1px solid #ccc;}
+            input[type="button"] { 
+              background-color: #4CAF50; 
+              color: white;
+              padding: 10px 15px;
+              border: none;
+              cursor: pointer;}
+            input[type="button"]:hover {opacity: 0.8;}
+          </style>
+    </head>
+    <body>
+        <h1>회원가입</h1>
+        <div class="container">
+<fieldset>
+    <legend>필수 입력 사항</legend>
+        <label for="name">이 름 : <input type="text" id="name"></label><br>
+        <label for="id">아이디 : <input type="text" id="id" placeholder="아이디를 입력하세요"></label><br>
+        <label for="passord">비밀번호 : <input type="password" id="password" placeholder="8자 이상 입력"></label><br>
+        <label for="email">이메일 : <input type="text" id="email"></label><br>
+        <label for="phone">휴대폰 : <input type="text" id="phone" placeholder="-제외하고 입력"></label><br>
+        <br>
+        <input type="button" value="가입하기">
+        <input type="button" value="취소">
+    </div>
+</fieldset>
+
+<div class="container">
+<fieldset>
+    <legend>추가 입력사항</legend>
+    <span>취미 : </span>
+    <label for="coding"></label><input type="checkbox" name="conding" id="option">코딩
+    <label for="exercise"></label><input type="checkbox" name="exercise" id="option">운동
+    <label for="breathing"></label><input type="checkbox" name="breathing" id="option">숨쉬기
+    <label for="travel"></label><input type="checkbox" name="travel" id="option">여행
+    <label for="sleep"></label><input type="checkbox" name="sleep" id="option">숙면
+    <label for="reading"></label><input type="checkbox" name="reading" id="option">독서
+    <label for="netflix"></label><input type="checkbox" name="netflix" id="option">넷플
+    <br>
+    <span>성별 : </span>
+    <label for="male"></label><input type="radio" name="male" id="male">남
+    <label for="female"></label><input type="radio" name="female" id="female">여
+    <label for="secret"></label><input type="radio" name="secret" id="secret">비밀
+</fieldset>
+</div>
+    </body>
+</html>

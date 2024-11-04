@@ -1,0 +1,29 @@
+@media screen and (max-width: 999px) {
+
+    .oz-join-wrap{
+        padding: 5%;
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .oz-join-wrap > div{
+        width: 100%;
+    }
+
+    .oz-logo img{
+        width: 30%;
+    }
+
+    .oz-join-main{
+        margin: 0;
+        height: auto;
+        padding: 0 10%;
+    }
+
+    .chat-wrap{
+        left: 5%;
+        bottom: 5%;
+    }
+    
+}

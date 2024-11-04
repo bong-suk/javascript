@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="container"></div>
+    <script>
+      for (let a = 1; a <= 5; a += 1) {
+        const div = document.getElementById("container");
+        const box = document.createElement("div");
+        console.log(box);
+        box.style.color = "blue";
+        box.style.width = "200px";
+        box.style.height = "200px";
+        box.textContent = "더럽게 어렵다!!";
+        div.appendChild(box);
+      }
+    </script>
+  </body>
+</html>

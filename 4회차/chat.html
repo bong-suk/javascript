@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>chat</title>
+    <link rel="stylesheet" href="chat.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!--아래 채팅창 제외하고 전부-->
+      <main class="chat-screen">
+        <section class="chat-screen-bar">
+          <div class="user">
+            <div class="user_column">
+              <div class="user_pic"></div>
+            </div>
+            <div class="user_column">
+              <p class="user-name">유저1</p>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <form class="chat-form">
+        <section class="chat-form_field">
+          <textarea class="chat-form_msg" placeholder="메시지 입력"></textarea>
+          <input type="submit" value="전송" class="chat-form_bt" />
+        </section>
+      </form>
+    </div>
+  </body>
+</html>
